@@ -16,6 +16,9 @@
 		0EAE592C202835B100398D56 /* CALayerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE592B202835B100398D56 /* CALayerTestVC.m */; };
 		0EAE592F2028549A00398D56 /* CALayerTestPlusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE592E2028549A00398D56 /* CALayerTestPlusVC.m */; };
 		0EAE59322029443B00398D56 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE59312029443B00398D56 /* UIView+CornerRadius.m */; };
+		0EAE593520297D0C00398D56 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE593420297D0C00398D56 /* ReflectionView.m */; };
+		0EAE593F20298C6F00398D56 /* ReflectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE593D20298C6F00398D56 /* ReflectionViewVC.m */; };
+		0EAE594020298C6F00398D56 /* ReflectionViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAE593E20298C6F00398D56 /* ReflectionViewVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,11 @@
 		0EAE592E2028549A00398D56 /* CALayerTestPlusVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerTestPlusVC.m; sourceTree = "<group>"; };
 		0EAE59302029443B00398D56 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
 		0EAE59312029443B00398D56 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		0EAE593320297D0C00398D56 /* ReflectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		0EAE593420297D0C00398D56 /* ReflectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		0EAE593C20298C6F00398D56 /* ReflectionViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectionViewVC.h; sourceTree = "<group>"; };
+		0EAE593D20298C6F00398D56 /* ReflectionViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectionViewVC.m; sourceTree = "<group>"; };
+		0EAE593E20298C6F00398D56 /* ReflectionViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReflectionViewVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,11 @@
 				0EAE59202028343F00398D56 /* main.m */,
 				0EAE59302029443B00398D56 /* UIView+CornerRadius.h */,
 				0EAE59312029443B00398D56 /* UIView+CornerRadius.m */,
+				0EAE593320297D0C00398D56 /* ReflectionView.h */,
+				0EAE593420297D0C00398D56 /* ReflectionView.m */,
+				0EAE593C20298C6F00398D56 /* ReflectionViewVC.h */,
+				0EAE593D20298C6F00398D56 /* ReflectionViewVC.m */,
+				0EAE593E20298C6F00398D56 /* ReflectionViewVC.xib */,
 			);
 			path = CoreAnimationTest;
 			sourceTree = "<group>";
@@ -144,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAE594020298C6F00398D56 /* ReflectionViewVC.xib in Resources */,
 				0EAE591E2028343F00398D56 /* LaunchScreen.storyboard in Resources */,
 				0EAE591B2028343F00398D56 /* Assets.xcassets in Resources */,
 				0EAE59192028343F00398D56 /* Main.storyboard in Resources */,
@@ -159,7 +173,9 @@
 			files = (
 				0EAE592F2028549A00398D56 /* CALayerTestPlusVC.m in Sources */,
 				0EAE59322029443B00398D56 /* UIView+CornerRadius.m in Sources */,
+				0EAE593520297D0C00398D56 /* ReflectionView.m in Sources */,
 				0EAE592C202835B100398D56 /* CALayerTestVC.m in Sources */,
+				0EAE593F20298C6F00398D56 /* ReflectionViewVC.m in Sources */,
 				0EAE59162028343F00398D56 /* ViewController.m in Sources */,
 				0EAE59212028343F00398D56 /* main.m in Sources */,
 				0EAE59132028343F00398D56 /* AppDelegate.m in Sources */,
@@ -297,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UFMLH7NQT;
 				INFOPLIST_FILE = CoreAnimationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCS.CoreAnimationTest;
@@ -310,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UFMLH7NQT;
 				INFOPLIST_FILE = CoreAnimationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCS.CoreAnimationTest;

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CALayerTestVC.h"
 #import "CALayerTestPlusVC.h"
+#import "ReflectionViewVC.h"
 
 @interface ViewController ()
 
@@ -31,6 +32,12 @@
     [btn2 setTitle:@"CALayerTestPlusVC" forState:UIControlStateNormal];
     [btn2 addTarget:self action:@selector(btn2Action) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn2];
+    
+    UIButton *btn3 = [UIButton buttonWithType:UIButtonTypeSystem];
+    btn3.frame = CGRectMake(100, 300, 200, 100);
+    [btn3 setTitle:@"ReflectionViewVC" forState:UIControlStateNormal];
+    [btn3 addTarget:self action:@selector(btn3Action) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn3];
 }
 
 - (void)btn1Action
@@ -42,6 +49,12 @@
 - (void)btn2Action
 {
     CALayerTestPlusVC *vc = [CALayerTestPlusVC new];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+- (void)btn3Action
+{
+    ReflectionViewVC *vc = [ReflectionViewVC new];
     [self presentViewController:vc animated:YES completion:nil];
 }
 
