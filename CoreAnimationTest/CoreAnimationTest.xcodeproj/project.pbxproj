@@ -17,8 +17,8 @@
 		0EAE592F2028549A00398D56 /* CALayerTestPlusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE592E2028549A00398D56 /* CALayerTestPlusVC.m */; };
 		0EAE59322029443B00398D56 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE59312029443B00398D56 /* UIView+CornerRadius.m */; };
 		0EAE593520297D0C00398D56 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE593420297D0C00398D56 /* ReflectionView.m */; };
-		0EAE593F20298C6F00398D56 /* ReflectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE593D20298C6F00398D56 /* ReflectionViewVC.m */; };
-		0EAE594020298C6F00398D56 /* ReflectionViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAE593E20298C6F00398D56 /* ReflectionViewVC.xib */; };
+		0EAE5943202AA95700398D56 /* AnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE5942202AA95700398D56 /* AnimationVC.m */; };
+		0EAE5946202AE70700398D56 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE5945202AE70700398D56 /* AnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +40,10 @@
 		0EAE59312029443B00398D56 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
 		0EAE593320297D0C00398D56 /* ReflectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
 		0EAE593420297D0C00398D56 /* ReflectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
-		0EAE593C20298C6F00398D56 /* ReflectionViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectionViewVC.h; sourceTree = "<group>"; };
-		0EAE593D20298C6F00398D56 /* ReflectionViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectionViewVC.m; sourceTree = "<group>"; };
-		0EAE593E20298C6F00398D56 /* ReflectionViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReflectionViewVC.xib; sourceTree = "<group>"; };
+		0EAE5941202AA95700398D56 /* AnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC.h; sourceTree = "<group>"; };
+		0EAE5942202AA95700398D56 /* AnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
+		0EAE5944202AE70700398D56 /* AnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		0EAE5945202AE70700398D56 /* AnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,8 @@
 				0EAE592B202835B100398D56 /* CALayerTestVC.m */,
 				0EAE592D2028549A00398D56 /* CALayerTestPlusVC.h */,
 				0EAE592E2028549A00398D56 /* CALayerTestPlusVC.m */,
+				0EAE5941202AA95700398D56 /* AnimationVC.h */,
+				0EAE5942202AA95700398D56 /* AnimationVC.m */,
 				0EAE59172028343F00398D56 /* Main.storyboard */,
 				0EAE591A2028343F00398D56 /* Assets.xcassets */,
 				0EAE591C2028343F00398D56 /* LaunchScreen.storyboard */,
@@ -92,9 +95,8 @@
 				0EAE59312029443B00398D56 /* UIView+CornerRadius.m */,
 				0EAE593320297D0C00398D56 /* ReflectionView.h */,
 				0EAE593420297D0C00398D56 /* ReflectionView.m */,
-				0EAE593C20298C6F00398D56 /* ReflectionViewVC.h */,
-				0EAE593D20298C6F00398D56 /* ReflectionViewVC.m */,
-				0EAE593E20298C6F00398D56 /* ReflectionViewVC.xib */,
+				0EAE5944202AE70700398D56 /* AnimationView.h */,
+				0EAE5945202AE70700398D56 /* AnimationView.m */,
 			);
 			path = CoreAnimationTest;
 			sourceTree = "<group>";
@@ -157,7 +159,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAE594020298C6F00398D56 /* ReflectionViewVC.xib in Resources */,
 				0EAE591E2028343F00398D56 /* LaunchScreen.storyboard in Resources */,
 				0EAE591B2028343F00398D56 /* Assets.xcassets in Resources */,
 				0EAE59192028343F00398D56 /* Main.storyboard in Resources */,
@@ -171,11 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAE5946202AE70700398D56 /* AnimationView.m in Sources */,
 				0EAE592F2028549A00398D56 /* CALayerTestPlusVC.m in Sources */,
+				0EAE5943202AA95700398D56 /* AnimationVC.m in Sources */,
 				0EAE59322029443B00398D56 /* UIView+CornerRadius.m in Sources */,
 				0EAE593520297D0C00398D56 /* ReflectionView.m in Sources */,
 				0EAE592C202835B100398D56 /* CALayerTestVC.m in Sources */,
-				0EAE593F20298C6F00398D56 /* ReflectionViewVC.m in Sources */,
 				0EAE59162028343F00398D56 /* ViewController.m in Sources */,
 				0EAE59212028343F00398D56 /* main.m in Sources */,
 				0EAE59132028343F00398D56 /* AppDelegate.m in Sources */,

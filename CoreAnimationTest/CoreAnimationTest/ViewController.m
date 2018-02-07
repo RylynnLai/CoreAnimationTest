@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "CALayerTestVC.h"
 #import "CALayerTestPlusVC.h"
-#import "ReflectionViewVC.h"
+#import "AnimationVC.h"
 
 @interface ViewController ()
 
@@ -35,7 +35,7 @@
     
     UIButton *btn3 = [UIButton buttonWithType:UIButtonTypeSystem];
     btn3.frame = CGRectMake(100, 300, 200, 100);
-    [btn3 setTitle:@"ReflectionViewVC" forState:UIControlStateNormal];
+    [btn3 setTitle:@"AnimationVC" forState:UIControlStateNormal];
     [btn3 addTarget:self action:@selector(btn3Action) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn3];
 }
@@ -54,7 +54,7 @@
 
 - (void)btn3Action
 {
-    ReflectionViewVC *vc = [ReflectionViewVC new];
+    AnimationVC *vc = [AnimationVC new];
     [self presentViewController:vc animated:YES completion:nil];
 }
 
