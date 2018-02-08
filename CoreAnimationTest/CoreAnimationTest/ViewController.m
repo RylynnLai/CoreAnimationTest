@@ -10,6 +10,7 @@
 #import "CALayerTestVC.h"
 #import "CALayerTestPlusVC.h"
 #import "AnimationVC.h"
+#import "TransitionVC.h"
 
 @interface ViewController ()
 
@@ -38,6 +39,12 @@
     [btn3 setTitle:@"AnimationVC" forState:UIControlStateNormal];
     [btn3 addTarget:self action:@selector(btn3Action) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn3];
+    
+    UIButton *btn4 = [UIButton buttonWithType:UIButtonTypeSystem];
+    btn4.frame = CGRectMake(100, 400, 200, 100);
+    [btn4 setTitle:@"TransitionVC" forState:UIControlStateNormal];
+    [btn4 addTarget:self action:@selector(btn4Action) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn4];
 }
 
 - (void)btn1Action
@@ -55,6 +62,12 @@
 - (void)btn3Action
 {
     AnimationVC *vc = [AnimationVC new];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+- (void)btn4Action
+{
+    TransitionVC *vc = [TransitionVC new];
     [self presentViewController:vc animated:YES completion:nil];
 }
 

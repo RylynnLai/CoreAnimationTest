@@ -19,6 +19,7 @@
 		0EAE593520297D0C00398D56 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE593420297D0C00398D56 /* ReflectionView.m */; };
 		0EAE5943202AA95700398D56 /* AnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE5942202AA95700398D56 /* AnimationVC.m */; };
 		0EAE5946202AE70700398D56 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE5945202AE70700398D56 /* AnimationView.m */; };
+		0EAE594F202C435300398D56 /* TransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE594E202C435300398D56 /* TransitionVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		0EAE5942202AA95700398D56 /* AnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
 		0EAE5944202AE70700398D56 /* AnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
 		0EAE5945202AE70700398D56 /* AnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		0EAE594D202C435300398D56 /* TransitionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionVC.h; sourceTree = "<group>"; };
+		0EAE594E202C435300398D56 /* TransitionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				0EAE592E2028549A00398D56 /* CALayerTestPlusVC.m */,
 				0EAE5941202AA95700398D56 /* AnimationVC.h */,
 				0EAE5942202AA95700398D56 /* AnimationVC.m */,
+				0EAE594D202C435300398D56 /* TransitionVC.h */,
+				0EAE594E202C435300398D56 /* TransitionVC.m */,
 				0EAE59172028343F00398D56 /* Main.storyboard */,
 				0EAE591A2028343F00398D56 /* Assets.xcassets */,
 				0EAE591C2028343F00398D56 /* LaunchScreen.storyboard */,
@@ -173,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EAE5946202AE70700398D56 /* AnimationView.m in Sources */,
+				0EAE594F202C435300398D56 /* TransitionVC.m in Sources */,
 				0EAE592F2028549A00398D56 /* CALayerTestPlusVC.m in Sources */,
 				0EAE5943202AA95700398D56 /* AnimationVC.m in Sources */,
 				0EAE59322029443B00398D56 /* UIView+CornerRadius.m in Sources */,
